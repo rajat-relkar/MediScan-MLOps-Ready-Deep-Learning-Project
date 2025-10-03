@@ -15,3 +15,14 @@ Update the components
 Update the pipeline
 Update the main.py
 Update the dvc.yaml
+
+# Experiment Tracking - Dagshub
+
+# setup dagshub and connect it with github repo
+
+# Pipeline tracking - DVC(Data Version Control)
+
+# DVC
+After setting up the pipeline, use following cmds
+- dvc init
+- dvc repro
