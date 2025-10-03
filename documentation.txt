@@ -3,3 +3,15 @@
 3. create template.py
 4. setup.py
 5. pip install -r requirements.txt
+6. write logging in src/cnnClassifier/__init__.py
+7. src/cnnClassifier/utils/common.py write common functionalities
+
+# Workflows
+Update config.yaml
+Update params.yaml
+Update the entity
+Update the configuration manager in src config
+Update the components
+Update the pipeline
+Update the main.py
+Update the dvc.yaml
