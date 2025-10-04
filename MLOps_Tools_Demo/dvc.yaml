@@ -1,19 +1,19 @@
 stages:
   stage01:
     cmd: python pipeline/stage01.py
-    # deps:
-    #   - python MLOps_Tools_Demo/pipeline/stage01.py
+    deps:
+      - pipeline/stage01.py
 
   stage02:
     cmd: python pipeline/stage02.py
-    # deps:
-    #   - python MLOps_Tools_Demo/pipeline/stage02.py
+    deps:
+      - pipeline/stage02.py
     outs:
       - artifacts/output.txt
 
   stage03:
     cmd: python pipeline/stage03.py
-    # deps:
-    #   - python MLOps_Tools_Demo/pipeline/stage03.py
-    #   - MLOps_Tools_Demo/artifacts/output.txt
+    deps:
+      - pipeline/stage03.py
+      - artifacts/output.txt
 

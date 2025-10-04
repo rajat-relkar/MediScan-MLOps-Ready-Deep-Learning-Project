@@ -1,5 +1,5 @@
 1. conda create -n chest python=3.8 -y
-2. conda activate chest
+2. conda activate chest1
 3. create template.py
 4. setup.py
 5. pip install -r requirements.txt
@@ -26,3 +26,8 @@ Update the dvc.yaml
 After setting up the pipeline, use following cmds
 - dvc init
 - dvc repro
+- dvc dag
+
+Updating the files according to the Workflows
+8. update the config.yaml file
+9. 
